@@ -1,0 +1,186 @@
+@media(max-width:575px){
+    h1 {
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    h4 {
+        font-size: 25px;
+     
+        margin-bottom: 0;
+    }
+    .main-banner {
+
+        margin-top: 0 !important;
+    }
+    .main-banner .banner-body {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main-banner .banner-body .left {
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+    .main-banner .banner-body .left img {
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
+        margin: auto;
+    }
+    .menu ul li {
+        display: inline-block;
+    margin: 8px;
+    margin-bottom: 0;
+    }
+    .main-right.flex.justify-content {
+        position: fixed;
+        right: 0;
+        top: 0px;
+        left: 0;
+        margin: auto;
+        display: block;
+        text-align: center;
+        background-color: #1c1c1c;
+        box-shadow: 0px 0px 6px 0px rgb(49 49 49);
+        padding: 6px 0px;
+    }
+    .active-section {
+        margin-top: 60px;
+        padding: 15px;
+    }
+    .left-before {
+        display: none;
+    }
+    .main-banner .right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .main-banner .right p {
+        margin: 10px 0px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .main-banner .right .glbl-btn {
+        width: 75%;
+        margin: 25px auto;
+        display: block;
+    }
+    .heading {
+        margin-bottom: 30px;
+    }
+    .heading h2 {
+        font-size: 40px;
+        
+    }
+    .heading h2::before {
+        font-size: 45px;
+    }
+
+
+
+  
+    .about .about-body{
+        flex-wrap: wrap;
+
+    }
+    .about .about-body .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .about-body ul li {
+        font-size: 18px;
+        text-align: left;
+    }
+    .about .about-body .right {
+        width: 100%;
+    }
+    .about .about-body .right .flex{
+     flex-wrap: wrap;
+    }
+    .about .about-body .right .box {
+        width: 75%;
+        margin: 0px auto 20px auto;
+    }
+    .about .about-body .right .box h4 {
+        font-size: 50px;
+    }
+    .about .about-body .right .box p {
+        font-size: 22px;
+    }
+    #new-bars {
+        flex-wrap: wrap;
+    }
+    #new-bars .bar {
+        width: 50%;
+        text-align: center;
+    }
+    .experience-education .box {
+
+        width: 80%;
+        margin-bottom: 0px;
+        margin-left: 10%;
+    }
+
+    .portfolio .flex a {
+        width: 90%;
+        margin: auto;
+    }
+    .portfolio .box-outer::after {
+
+        height: 70px;
+        width: 70px;
+
+        top: -21px;
+        z-index: -1;
+        box-shadow: 0 3px 10px rgb(0 0 0 / .2);
+    }
+    #contact .right .box {
+    height: 200px;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #contact h3 {
+        font-size: 25px;
+    }
+    .contact .about-body .right .box p {
+ 
+        width: 100%;
+        font-size: 19px;
+    }
+    #contact .right .box img {
+        transform: translateY(5px);
+        width: 40px;
+    }
+ .glbl-btn  img{
+    transform: translateY(0px) !important;
+    width: 22px !important;
+    }
+    .menu ul li{
+        transition: all ease-in-out 0.5s;
+    }
+    .menu ul li a h5 {
+        display: none;
+    }
+    .menu ul li:hover {
+        overflow: visible;
+        background-color: #ffc107;
+    }
+    #contact h3 {
+        font-size: 21px;
+    }
+    #contact .right .box h3 img {
+        transform: translateY(5px);
+        width: 24px;
+    }
+    .about .about-body .right .glbl-btn::after {
+        right: -77%;
+    }
+}
