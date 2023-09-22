@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font css  -->
+</head>
+
+<body>
+    <main>
+        <div class="shutter" id="shutter"></div>
+        <div class="container">
+            <div>
+                <div class="main-left">
+                    <section class="main-banner slide" id="home">
+                        <div class="left-before">
+                        </div>
+                        <div class="container">
+                            <div class="banner-body flex  align-center">
+                                <div class="left">
+                                    <img src="img/banner-front.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <h1>I'M Manish <br>
+                                        Web Designer
+                                    </h1>
+                                    <p>
+                                        I'm a Tunisian based web designer & front‑end developer focused on crafting
+                                        clean &
+                                        user‑friendly experiences, I am passionate about building excellent software
+                                        that
+                                        improves
+                                        the
+                                        lives of those around me.
+                                    </p>
+                                    <div class="glbl-btn">
+                                        More About Me
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- about  -->
+                    <section class="about slide" id="about">
+                        <div class="heading">
+                            <h2>About <span>Me</span></h2>
+                        </div>
+                        <div class="container">
+                            <div class="about-body flex justify-space-between align-center">
+                                <div class="left">
+                                    <h3>PERSONAL INFOS</h3>
+                                    <ul>
+                                        <li><span>Full Name</span> : Pawan Singh Bisht</li>
+                                        <li><span>Email </span> : pawan.frontend@gmail.com</li>
+                                        <li><span>Phone</span> : 9643674679</li>
+                                        <li><span>DOB</span> : 1997</li>
+                                        <li><span>Nationality</span> : Indian</li>
+                                        <li><span>Freelance </span> : Available</li>
+                                        <li><span>Langages </span> : Hindi, English</li>
+                                        <li><span>Address</span> : D-1/200 gali no - 6 sonia vihar delhi - 110094</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <div class="flex justify-space-between align-center">
+                                        <div class="box">
+                                            <h4>2 <span>+</span></h4>
+                                            <p>Years of Experiences</p>
+                                        </div>
+                                        <div class="box">
+                                            <h4>25 <span>+</span></h4>
+                                            <p>Projects Completed</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="glbl-btn">Download Resume <img src="img/download.png" alt=""></a>
+                                </div>
+
+
+                            </div>
+                            <div class="skill-circle">
+                                <h3>My Skills</h3>
+                                <div id="new-bars">
+                                    <div class="bar" data-percent="90">
+                                        <h3>HTML</h3>
+                                        <canvas class="bar-circle" width="180" height="180"></canvas>
+                                    </div>
+                                    <div class="bar" data-percent="70">
+                                        <h3>CSS</h3>
+                                        <canvas class="bar-circle" width="180" height="180"></canvas>
+                                    </div>
+                                    <div class="bar" data-percent="85">
+                                        <h3>JS</h3>
+                                        <canvas class="bar-circle" width="180" height="180"></canvas>
+                                    </div>
+                                    <div class="bar" data-percent="65">
+                                        <h3>BOOTSTRAP</h3>
+                                        <canvas class="bar-circle" width="180" height="180"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience-education">
+                                <h3>Experience & Education</h3>
+
+                                <div class="experience flex justify-space-between flex-wrap">
+                                    <div class="box">
+                                        <span>2021 January - PRESENT</span>
+                                        <h4>Weeb Inovation
+                                        </h4>
+                                        <p>
+                                            3 Years Rocking the Frontend at WeebInnovation: A Journey of Code and
+                                            Creativity!
+                                        </p>
+
+                                        <div class="box-icon">
+                                            <img src="img/services-portfolio.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <span>2017 December</span>
+                                        <h4>BCA (IGNOU)
+                                        </h4>
+                                        <p>
+                                            Graduated from Indira Gandhi National Open University (IGNOU)
+                                        </p>
+
+                                        <div class="box-icon">
+                                            <img src="img/mortarboard.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <span>2014 January</span>
+                                        <h4>Senior Secondary</h4>
+                                        <p>
+                                            Completed 12th Grade at Govt. Sarvodaya Bal Vidyalaya No.1 , Mori Gate,
+                                            Gokhle
+                                            Marg, Delhi
+                                        </p>
+
+                                        <div class="box-icon">
+                                            <img src="img/mortarboard.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <span>2012 January</span>
+                                        <h4>High School
+                                        </h4>
+                                        <p>
+                                            Completed 10th Grade at Govt. Boys Sr. Sec. School, Sonia Vihar, 4 1/2
+                                            Pusta,
+                                            Delhi
+
+                                        </p>
+
+                                        <div class="box-icon">
+                                            <img src="img/mortarboard.png" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <!-- portfolio  -->
+                    <section class="portfolio slide" id="portfolio">
+                        <div class="container">
+                            <div class="heading">
+                                <h2>My <span>Portfolio</span></h2>
+                            </div>
+                            <div class="flex justify-space-between align-center flex-wrap">
+                                <a href="#">
+                                    <div class="box-outer">
+                                        <div class="box">
+                                            <div class="project-name">
+                                                <h3>Aerospaceholidays</h3>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box-outer">
+                                        <div class="box">
+                                            <div class="project-name">
+                                                <h3>Gameoftravels</h3>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box-outer">
+                                        <div class="box">
+                                            <div class="project-name">
+                                                <h3>Cafe Hinge</h3>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box-outer">
+                                        <div class="box">
+                                            <div class="project-name">
+                                                <h3>TechFro</h3>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box-outer">
+                                        <div class="box">
+                                            <div class="project-name">
+                                                <h3>IndiaIncoming</h3>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box-outer">
+                                        <div class="box">
+                                            <div class="project-name">
+                                                <h3>AsianB2B</h3>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- contact  -->
+                    <section class="about slide" id="contact">
+                        <div class="heading">
+                            <h2>contact <span>Me</span></h2>
+                        </div>
+                        <div class="container">
+                            <div class="about-body flex justify-space-between align-center">
+                                
+                                <div class="right">
+                                    <div class="flex justify-space-between align-center">
+                                        <div class="box">
+                                            <div>
+                                                <h3><img src="img/phone-call.png" alt=""> Phone Number</h3>
+                                                <p>9643674679</p>
+                                            </div>
+                                        </div>
+                                        <div class="box">
+                                           <div>
+                                            <h3><img src="img/email.png" alt=""> Email Id</h3>
+                                            <p>Pawan.frontend@gamil.com</p>
+                                           </div>
+                                        </div>
+                                        <div class="box">
+                                          <div>
+                                            <h3>Curriculum Vitae</h3>
+                                            <a href="#" class="glbl-btn">Download Resume <img src="img/download.png" alt=""></a>
+                                          </div>
+
+                                        </div>
+                                        <div class="box social-links">
+                                            <div>
+                                                <h3>Social Links</h3>
+                                                <ul>
+                                                    <li><a href="img/instagram.png"><img src="img/instagram.png" alt=""></a></li>
+                                                    <li><a href="img/facebook-circular-logo.png"><img src="img/facebook-circular-logo.png" alt=""></a></li>
+                                                    <li><a href="img/linkedin.png"><img src="img/linkedin.png" alt=""></a></li>
+                                                    <li><a href="img/youtube.png"><img src="img/youtube.png" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                          
+                        </div>
+
+                    </section>
+                     
+                </div>
+                <div class="main-right flex  justify-content">
+                    <?php include 'inc/menu.php';?>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
