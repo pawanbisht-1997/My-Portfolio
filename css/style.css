@@ -147,8 +147,7 @@ body{
 .main-banner .banner-body .left img{
     width: 100%;
     border-radius: 5px;
-    height: 460px;
-    object-fit: cover;
+
 }
 .left-before {
     position: absolute;
