@@ -66,10 +66,9 @@
         font-size: 13px;
         line-height: 20px;
     }
-    .main-banner .right .glbl-btn {
-        width: 75%;
-        margin: 25px auto;
-        display: block;
+
+    .main-banner .right h1 {
+        line-height: 45px;
     }
     .heading {
         margin-bottom: 30px;
@@ -183,4 +182,10 @@
     .about .about-body .right .glbl-btn::after {
         right: -77%;
     }
+    .main-banner .right .glbl-btn {
+
+        width: 75%;
+        margin: 20px auto;
+    }
+  
 }
